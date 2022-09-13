@@ -28,10 +28,16 @@
             let varTwo = prompt("Enter second variable");
 
             // Swapping values:
-            /*
-                Replace these comments and text with logic and code
-                that will swap the values of varOne and varTwo
-            */
+            
+            /* temp was storing varOne
+            varOne would change with varTwo
+            varTwo would change with temp*/
+
+            let temp;
+
+            temp = varOne;
+            varOne = varTwo;
+            varTwo = temp;
 
             // Printing results:
             console.log("The value of varOne after swapping is: " + varOne);
